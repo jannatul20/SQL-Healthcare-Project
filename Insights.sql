@@ -4,7 +4,7 @@ select count(*) as TotalNumberOfPatients, avg("age") as AverageAge, count(distin
 avg("Billing_Amount") as AverageBilling, MAX("Billing_Amount") AS MaxBilling,
     MIN("Billing_Amount") AS MinBilling from "Patients";
 
-/*Insights by hospital*/
+/*Insights of hospitals*/
 SELECT 
     "hospital",
     COUNT(*) AS TotalPatients,
